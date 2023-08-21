@@ -21,5 +21,5 @@ let
   });
 in
   (with pure; [nixGLIntel nixVulkanNvidia nixGLNvidia nixVulkanIntel])
-   ++ (with versionFile440.auto; [nixGLNvidia nixGLDefault nixVulkanNvidia])
-   ++ (with versionFile510.auto; [nixGLNvidia nixGLDefault nixVulkanNvidia])
+   ++ (with versionFile440.auto; [nixGLNvidia nixGLDefault nixVulkanNvidia nixVulkanDefault])
+   ++ (with versionFile510.auto; [nixGLNvidia nixGLDefault nixVulkanNvidia nixVulkanDefault])

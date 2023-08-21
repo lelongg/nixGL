@@ -243,6 +243,10 @@ let
         nixGLCommon autoNvidia.nixGLNvidia
       else
         nixGLCommon nixGLIntel;
+      nixVulkanDefault = if nvidiaVersionAuto != null then
+        nixGLCommon autoNvidia.nixVulkanNvidia
+      else
+        nixGLCommon nixVulkanIntel;
     } // autoNvidia;
   };
 in top // (if nvidiaVersion != null then

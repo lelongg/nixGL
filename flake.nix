@@ -20,6 +20,7 @@
           default = pkgs.auto.nixGLDefault;
 
           nixGLDefault = pkgs.auto.nixGLDefault;
+          nixVulkanDefault = pkgs.auto.nixVulkanDefault;
           nixGLNvidia = pkgs.auto.nixGLNvidia;
           nixGLNvidiaBumblebee = pkgs.auto.nixGLNvidiaBumblebee;
           nixGLIntel = pkgs.nixGLIntel;

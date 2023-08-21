@@ -47,6 +47,7 @@ OpenGL wrappers:
 
 Vulkan wrappers:
 
+- `auto.nixVulkanDefault`: Tries to auto-detect and install Nvidia, if not, fallback to mesa.
 - `auto.nixVulkanNvidia`: Proprietary Nvidia driver (auto detection).
 - `nixVulkanIntel`: Mesa Vulkan implementation.
 
